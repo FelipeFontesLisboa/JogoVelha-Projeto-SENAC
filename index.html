@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+
+    <div class="painel">
+        <span>Jogo Da Velha do (HELIO)</span>
+        <table class="jogo">
+            <tr>
+                <td class="quadrado" onclick="jogar(this)"></td>
+                <td class="quadrado" onclick="jogar(this)"></td>
+                <td class="quadrado" onclick="jogar(this)"></td>
+            </tr>
+            <tr>
+                <td class="quadrado" onclick="jogar(this)"></td>
+                <td class="quadrado" onclick="jogar(this)"></td>
+                <td class="quadrado" onclick="jogar(this)"></td>
+            </tr>
+            <tr>
+                <td class="quadrado" onclick="jogar(this)"></td>
+                <td class="quadrado" onclick="jogar(this)"></td>
+                <td class="quadrado" onclick="jogar(this)"></td>
+            </tr>
+        </table>
+        <button  class="botoes" onclick="reiniciar()">Reiniciar</button>
+        
+    </div>
+    <marquee class="velha" behavior="alternate" direction=""> <img src="./img/Sylvester-granny.webp" alt=""></marquee>
+    <script src="./script.js"></script>
+</body>
+
+</html>  

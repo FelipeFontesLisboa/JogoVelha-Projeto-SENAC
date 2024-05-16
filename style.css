@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Nabla&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/Fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.painel {
+    width: auto;
+    height: auto;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    background: transparent;
+    backdrop-filter: blur(4px);
+
+}
+span {
+    font-size: 2rem;
+    font-family: 'Nabla', cursive;
+    /*animation: blinker 1.5s linear infinite;*/
+}
+
+/*@keyframes blinker {
+    0% {
+        opacity: 0;
+    }
+}*/
+
+table{ 
+    display: flex;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    justify-content: center;
+}
+
+.quadrado {
+    background-image: url(./img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 10px black;
+    width: 160px;
+    height: 185px;
+    text-align: center;
+    font-size: 10rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Bungee Spice', cursive;
+    background-color: gold;
+    font-size: large; 
+    
+}
+.velha{
+    width:100%;
+    position: absolute;
+    z-index: -1;
+}
+
+@media (max-width:768px) {
+    span {
+        font-size: 1rem;
+        user-select: none;
+    }
+    img{
+        width: auto;
+        position: fixed;
+        z-index: +2;
+        
+    }
+    tbody{
+        user-select: none;
+       }
+    .quadrado{
+        margin-top:50px;
+        width: 50px;
+        height:50px;
+        user-select: none;
+    }
+    .painel {
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        user-select: none; 
+        z-index: +1; 
+    }
+   
+    body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/Fundo.webp);
+    background-position: 50% 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+}
+button {
+    margin-bottom: px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Bungee Spice', cursive;
+    background-color: gold;
+    font-size: large; 
+}
+    }
+
+
+
+
