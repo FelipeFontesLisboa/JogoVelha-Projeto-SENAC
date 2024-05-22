@@ -19,8 +19,8 @@ body {
 }
 
 .painel {
-    width: auto;
-    height: auto;
+    width: 60%;
+    height: 65%;
     margin: 20px;
     text-align: center;
     justify-content: center;
@@ -54,10 +54,10 @@ table{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 2px 2px 10px black;
-    width: 160px;
-    height: 185px;
+    width: 150px;
+    height: 150px;
     text-align: center;
-    font-size: 10rem;
+    font-size: 5rem;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -93,16 +93,18 @@ button {
        }
     .quadrado{
         margin-top:50px;
-        width: 50px;
-        height:50px;
+        width: 60px;
+        height:60px;
+        font-size: 1.5rem;
         user-select: none;
     }
     .painel {
-        width: auto;
+        width: 90%;
+        height: 60%;
         align-items: center;
         justify-content: center;
         user-select: none; 
-        z-index: +1; 
+        z-index: 1; 
     }
    
     body {
@@ -116,7 +118,7 @@ button {
 }
 button {
     margin-bottom: px;
-    width: 200px;
+    width: 150px;
     height: 30px;
     border-radius: 5px;
     cursor: pointer;
