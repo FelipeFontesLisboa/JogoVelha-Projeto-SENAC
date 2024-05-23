@@ -69,6 +69,7 @@ button {
     font-family: 'Bungee Spice', cursive;
     background-color: gold;
     font-size: large; 
+    margin-top: 10px;
     
 }
 .velha{
@@ -79,13 +80,13 @@ button {
 
 @media (max-width:768px) {
     span {
-        font-size: 1rem;
+        font-size: 1.5rem;
         user-select: none;
     }
     img{
         width: auto;
         position: fixed;
-        z-index: +2;
+        z-index: 2;
         
     }
     tbody{
@@ -93,16 +94,19 @@ button {
        }
     .quadrado{
         margin-top:50px;
-        width: 60px;
-        height:60px;
-        font-size: 1.5rem;
+        width: 80px;
+        height:80px;
+        font-size: 2.5rem;
         user-select: none;
     }
     .painel {
-        width: 90%;
-        height: 60%;
+display: flex;
+flex-direction: column;
+        width: 80%;
+        height: 50%;
         align-items: center;
         justify-content: center;
+
         user-select: none; 
         z-index: 1; 
     }
