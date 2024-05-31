@@ -100,13 +100,13 @@ button {
         user-select: none;
     }
     .painel {
-display: flex;
-flex-direction: column;
+        display: flex;
+        flex-direction: column;
         width: 80%;
         height: 50%;
         align-items: center;
         justify-content: center;
-
+        text-align: center;
         user-select: none; 
         z-index: 1; 
     }
@@ -119,6 +119,7 @@ flex-direction: column;
     justify-content: center;
     display: flex;
     align-items: center; 
+    text-align: center;
 }
 button {
     margin-bottom: px;
