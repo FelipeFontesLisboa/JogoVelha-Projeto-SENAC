@@ -36,11 +36,6 @@ span {
     /*animation: blinker 1.5s linear infinite;*/
 }
 
-/*@keyframes blinker {
-    0% {
-        opacity: 0;
-    }
-}*/
 
 table{ 
     display: flex;
@@ -94,8 +89,8 @@ button {
        }
     .quadrado{
         margin-top:50px;
-        width: 80px;
-        height:80px;
+        width: 90px;
+        height:90px;
         font-size: 2.5rem;
         user-select: none;
     }
